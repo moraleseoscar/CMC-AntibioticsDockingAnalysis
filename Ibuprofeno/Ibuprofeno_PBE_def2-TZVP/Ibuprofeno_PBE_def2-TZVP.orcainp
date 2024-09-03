@@ -1,11 +1,7 @@
 # ORCA input file
 # 
-!PBE def2-TZVP Opt
+!PBE def2-TZVP Opt CPCM(WATER)
 
-%tddft
-    NRoots 30
-    MaxDim 5
-end
 * xyz 0 1
    C        2.67569         1.76515         3.50557
    C        2.36944         0.52730         2.66006

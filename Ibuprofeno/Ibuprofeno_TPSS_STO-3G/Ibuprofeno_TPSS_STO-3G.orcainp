@@ -1,11 +1,7 @@
 # ORCA input file
 # 
-!TPSS STO-3G Opt
+!TPSS STO-3G Opt CPCM(WATER)
 
-%tddft
-    NRoots 30
-    MaxDim 5
-end
 * xyz 0 1
    C        2.51158         1.94756         2.60573
    C        2.25536         0.96160         1.46447

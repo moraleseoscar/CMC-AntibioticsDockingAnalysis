@@ -1,11 +1,7 @@
 # ORCA input file
 # 
-!B3LYP STO-3G Opt
+!B3LYP STO-3G Opt CPCM(WATER)
 
-%tddft
-    NRoots 30
-    MaxDim 5
-end
 * xyz 0 1
    C        2.61581        -3.88133        -0.54439
    C        2.30712        -2.53453        -1.20072
