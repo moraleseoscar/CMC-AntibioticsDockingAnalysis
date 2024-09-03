@@ -1,11 +1,7 @@
 # ORCA input file
 # 
-!PBE STO-3G Opt
+!PBE STO-3G Opt CPCM(WATER)
 
-%tddft
-    NRoots 30
-    MaxDim 5
-end
 * xyz 0 1
    H        1.20551         0.10685         0.44594
    C        2.19632         0.04506        -0.02783

@@ -1,11 +1,7 @@
 # ORCA input file
 # 
-!B3LYP def2-TZVP Opt
+!B3LYP def2-TZVP Opt CPCM(WATER)
 
-%tddft
-    NRoots 30
-    MaxDim 5
-end
 * xyz 0 1
    H        2.00250        -0.97652        -0.40737
    C        2.12691         0.04515        -0.01930

@@ -1,11 +1,7 @@
 # ORCA input file
 # 
-!TPSS 6-311+G** Opt
+!TPSS 6-311+G** Opt CPCM(WATER)
 
-%tddft
-    NRoots 30
-    MaxDim 5
-end
 * xyz 0 1
    H        1.20129        -0.16932         0.23897
    C        2.26794        -0.11673        -0.02274
