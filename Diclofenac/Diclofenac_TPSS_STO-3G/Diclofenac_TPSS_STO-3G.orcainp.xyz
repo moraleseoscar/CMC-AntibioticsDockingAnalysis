@@ -1,5 +1,11 @@
-30
-Coordinates from ORCA-job Diclofenac\Diclofenac_TPSS_STO-3G\Diclofenac_TPSS_STO-3G.orcainp E -1646.650227504523
+# ORCA xyz input file 
+# 
+!TPSS STO-3G CPCM(WATER) LARGEPRINT 
+%tddft
+    NRoots 30
+    MaxDim 5
+end
+* xyz 0 1
   O           3.03350740594707      1.35276883093067     -3.19528749262474
   C           2.90890889864390     -0.01748069808663     -2.93063633831531
   O           2.44343279272411     -0.82164945988464     -3.78960242568995
@@ -30,3 +36,4 @@ Coordinates from ORCA-job Diclofenac\Diclofenac_TPSS_STO-3G\Diclofenac_TPSS_STO-
   H           6.66954118868877      5.81822084555786     -3.00773005278170
   H           5.93276170861926      7.39880885377066     -1.17981584370074
   H           4.46542875125772      6.55816442169909      0.70478721985429
+*

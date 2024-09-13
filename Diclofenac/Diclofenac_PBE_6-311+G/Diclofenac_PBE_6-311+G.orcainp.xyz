@@ -1,5 +1,11 @@
-30
-Coordinates from ORCA-job Diclofenac\Diclofenac_PBE_6-311+G\Diclofenac_PBE_6-311+G.orcainp E -1664.706936483406
+# ORCA xyz input file 
+# 
+!PBE 6-311+G** CPCM(WATER) LARGEPRINT 
+%tddft
+    NRoots 30
+    MaxDim 5
+end
+* xyz 0 1
   O           3.13449306437797      1.13594836402517     -3.30541759501886
   C           2.94942079623489     -0.12967655191319     -2.88527796543116
   O           2.45330272370087     -0.95776911172561     -3.63649415010396
@@ -30,3 +36,4 @@ Coordinates from ORCA-job Diclofenac\Diclofenac_PBE_6-311+G\Diclofenac_PBE_6-311
   H           6.62325088871642      5.82355952024925     -2.96794360940837
   H           5.95136651692314      7.34991373414509     -1.10302018903850
   H           4.54387826460527      6.47414582865308      0.77307884861737
+*

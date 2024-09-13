@@ -1,5 +1,11 @@
-30
-Coordinates from ORCA-job Diclofenac\Diclofenac_TPSS_def2-TZVP\Diclofenac_TPSS_def2-TZVP.orcainp E -1666.222631065409
+# ORCA xyz input file 
+# 
+!TPSS def2-TZVP CPCM(WATER) LARGEPRINT 
+%tddft
+    NRoots 30
+    MaxDim 5
+end
+* xyz 0 1
   O           3.15983138953320      1.10365624534325     -3.32053321023953
   C           2.95488945184204     -0.14877617936561     -2.87183281712137
   O           2.45899448369741     -0.98518677393898     -3.60661998306153
@@ -30,3 +36,4 @@ Coordinates from ORCA-job Diclofenac\Diclofenac_TPSS_def2-TZVP\Diclofenac_TPSS_d
   H           6.63917632037854      5.83057762261142     -2.93049651894968
   H           5.93312401706804      7.34819574464090     -1.08314791584442
   H           4.50515550872338      6.46522990385535      0.76211102689789
+*

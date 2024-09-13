@@ -1,5 +1,11 @@
-30
-Coordinates from ORCA-job Diclofenac\Diclofenac_B3LYP_def2-TZVP\Diclofenac_B3LYP_def2-TZVP.orcainp E -1665.523186042097
+# ORCA xyz input file 
+# 
+!B3LYP def2-TZVP CPCM(WATER) LARGEPRINT 
+%tddft
+    NRoots 30
+    MaxDim 5
+end
+* xyz 0 1
   O           2.17175092911229     -0.93014937411965      0.61059113491634
   C           2.73860395263874     -2.02511434780705      0.06706670562277
   O           2.56289827948633     -3.13559326465748      0.50942029745930
@@ -30,3 +36,4 @@ Coordinates from ORCA-job Diclofenac\Diclofenac_B3LYP_def2-TZVP\Diclofenac_B3LYP
   H           4.94097787487389      4.97163282083698     -3.16949424601666
   H           3.79198841287578      6.44981042180865     -1.53812405832076
   H           2.64994855706318      5.44833792038394      0.42930280537310
+*
