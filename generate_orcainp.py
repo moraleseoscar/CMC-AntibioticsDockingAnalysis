@@ -25,21 +25,10 @@ def generate_orcainp(name, sequence, bases, functionals):
                     orcainp_file_path = os.path.join(combo_dir, f"{combo_name}.orcainp")
                     
                     # Comando para Open Babel
-                    command = f'obabel {smiles_file_path} -O {orcainp_file_path} -xk "!{functional} {base} Opt" --gen3d'
+                    command = f'obabel {smiles_file_path} -O {orcainp_file_path} -xk "!{functional} {base} Opt CPCM(WATER)" --gen3d'
                     
                     # Ejecutar el comando Open Babel
                     subprocess.run(command, shell=True, check=True)
-                    
-                    # Leer el contenido del archivo .orcainp para modificarlo
-                    with open(orcainp_file_path, 'r') as file:
-                        lines = file.readlines()
-                    
-                    # Modificar el archivo para insertar la sección TD-DFT después de la línea del funcional
-                    with open(orcainp_file_path, 'w') as file:
-                        for line in lines:
-                            file.write(line)
-                            if line.strip().startswith('!'):
-                                file.write("\n%tddft\n    NRoots 30\n    MaxDim 5\nend\n")
                     
                     print(f"Archivo {combo_name}.orcainp creado en la carpeta {combo_dir}.")
                 
