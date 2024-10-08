@@ -1,7 +1,7 @@
 # avogadro generated ORCA input file 
 # Basic Mode
 # 
-! RHF SP def2-SVP 
+!B3LYP STO-3G Opt CPCM(WATER) D4
 
 * xyz 0 1
    C       12.08600        5.27100       -2.14000
